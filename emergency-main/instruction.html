@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/burger.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/infographic.css" />
+  <link rel="icon" type="image/png" href="img/fav.png" />
+
+  <title>Emergency Site</title>
+</head>
+
+<body id="instruction">
+  <header>
+    <nav>
+      <div id="logotype-wrapper" class="logo">
+        <a href="index.html"> LOGO-TYPE </a>
+      </div>
+
+      <ul class="menu">
+        <li><a class="menuItem" href="instruction.html">Nærkontakt</a></li>
+        <li><a class="menuItem" href="register.html">Indberet</a></li>
+      </ul>
+
+      <button class="burger" aria-label="Menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <h1>Nærkontakt</h1>
+    <p>Tryk på dræberbien for at se dens svage punkter.</p>
+
+    <section class="info-graphic">
+      <div class="dragon-wrap">
+
+
+        <object id="beeSvg" type="image/svg+xml" data="imgs/draeberbi.svg" aria-label="Dræberbi"></object>
+
+
+        <button class="hotspot hs-head" data-target="head" aria-label="Hoved"></button>
+        <button class="hotspot hs-wing" data-target="wing" aria-label="Vinge"></button>
+        <button class="hotspot hs-sting" data-target="sting" aria-label="Brod"></button>
+
+      </div>
+    </section>
+
+    <section class="info-text">
+      <h2 id="info-h2">Interaktive områder</h2>
+
+      <article>
+        <p id="info-p" class="placeholder">
+          Tryk på et punkt på dræberbien for at få info.
+        </p>
+      </article>
+
+      <aside id="efficiency" class="info-box">
+        <h3>Effektivitet:</h3>
+        <p id="effekt">–</p>
+      </aside>
+
+      <aside id="requirement" class="info-box">
+        <h3>Styrke:</h3>
+        <p id="styrke">–</p>
+      </aside>
+    </section>
+  </main>
+  <footer>
+    <nav class="some">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+    <nav class="another">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+    <nav class="yetanother">
+      <ul>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">link</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="js/burger.js"></script>
+  <script src="js/instruction.js"></script>
+
+  <!-- <script src="js/main.js"></script> -->
+</body>
+
+</html>
